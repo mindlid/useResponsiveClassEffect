@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "outDir": "./lib",
+    "declaration": true,
+    "module": "commonjs",
+    "allowJs": true,
+    "sourceMap": true,
+    "removeComments": false,
+    "noEmit": false,
+    "newLine": "crlf",
+    "isolatedModules": false,
+    "strict": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "exactOptionalPropertyTypes": true,
+    "noImplicitReturns": true,
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true
+  }
+}

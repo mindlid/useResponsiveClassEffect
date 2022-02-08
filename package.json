@@ -1,0 +1,36 @@
+{
+  "name": "@saulpalv/use-responsive-class-effect",
+  "author": "saulpalv",
+  "license": "mit",
+  "private": false,
+  "version": "1.0.0",
+  "description": "An effect hook for setting css responsive class names on the root node using breakpoint definitions",
+  "main": "lib/useWindowDimensions.js",
+  "types": "lib/useWindowDimensions.d.ts",
+  "scripts": {
+    "publish": "npm publish --access=public",
+    "build": "tsc --build "
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saulpalv/use-responsive-class-effect"
+  },
+  "homepage": "https://github.com/saulpalv/use-responsive-class-effect",
+  "keywords": [
+    "react",
+    "hook",
+    "height",
+    "width",
+    "orientation",
+    "screen",
+    "listener"
+  ],
+  "dependencies": {
+    "@saulpalv/use-window-dimensions": "^1.0.3",
+    "react": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.39",
+    "typescript": "^4.5.5"
+  }
+}
